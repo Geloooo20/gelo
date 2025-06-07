@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Rubik', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- Sidebar Navbar -->
+  <aside class="fixed top-0 left-0 h-full w-48 bg-gradient-to-b from-indigo-900 via-indigo-800 to-indigo-900 text-white flex flex-col items-center py-10 space-y-8 shadow-lg">
+    <h1 class="text-3xl font-extrabold tracking-wide">Portfolio</h1>
+    <nav class="flex flex-col space-y-5 text-sm font-medium uppercase tracking-wide">
+      <a href="#home" class="hover:text-indigo-300 transition">Home</a>
+      <a href="#about" class="hover:text-indigo-300 transition">About</a>
+      <a href="#certificates" class="hover:text-indigo-300 transition">Certificates</a>
+      <a href="#skills" class="hover:text-indigo-300 transition">Skills</a>
+      <a href="#contact" class="hover:text-indigo-300 transition">Contact</a>
+    </nav>
+
+    <!-- Social Media Links -->
+    <div class="flex space-x-5 mt-auto text-indigo-300">
+      <a href="https://www.facebook.com/angelovillarta91" target="_blank" aria-label="Facebook" class="hover:text-indigo-100 transition">
+        <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M22 12a10 10 0 10-11.5 9.87v-7H8v-3h2.5v-2.3c0-2.47 1.49-3.83 3.77-3.83 1.09 0 2.23.2 2.23.2v2.45h-1.25c-1.23 0-1.61.77-1.61 1.56v1.92H17l-.4 3h-2.1v7A10 10 0 0022 12z"/></svg>
+      </a>
+      <a href="https://instagram.com/yourprofile" target="_blank" aria-label="Instagram" class="hover:text-indigo-100 transition">
+        <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M7 2C4.243 2 2 4.243 2 7v10c0 2.757 2.243 5 5 5h10c2.757 0 5-2.243 5-5V7c0-2.757-2.243-5-5-5H7zm0 2h10a3 3 0 013 3v10a3 3 0 01-3 3H7a3 3 0 01-3-3V7a3 3 0 013-3zm5 2a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6zm3.5-3a1 1 0 100 2 1 1 0 000-2z"/></svg>
+      </a>
+      <a href="https://github.com/yourprofile" target="_blank" aria-label="GitHub" class="hover:text-indigo-100 transition">
+        <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.865 8.166 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.34-3.369-1.34-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.607.069-.607 1.003.07 1.53 1.032 1.53 1.032.893 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.252-4.555-1.11-4.555-4.944 0-1.09.39-1.98 1.03-2.68-.103-.253-.447-1.27.098-2.647 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0112 6.844c.85.004 1.705.114 2.504.335 1.91-1.296 2.75-1.025 2.75-1.025.546 1.376.202 2.394.1 2.647.64.7 1.03 1.59 1.03 2.68 0 3.842-2.337 4.688-4.566 4.935.36.31.68.92.68 1.854 0 1.338-.012 2.419-.012 2.75 0 .268.18.58.688.48A10.002 10.002 0 0022 12c0-5.52-4.48-10-10-10z"/></svg>
+      </a>
+    </div>
+  </aside>
+
+  <main class="ml-52 px-6 lg:px-20">
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-20 text-center">
+      <img src="https://i.postimg.cc/667XmKQZ/angelo-pogi.jpg" alt="Profile" class="mx-auto mb-6 w-32 h-32 rounded-full border-4 border-indigo-600 shadow-xl" />
+      <h2 class="text-4xl font-extrabold mb-3 tracking-tight">Hello, I'm <span class="text-indigo-600">Michael Angelo</span></h2>
+      <p class="max-w-xl mx-auto text-gray-600 text-lg leading-relaxed">Welcome to my draft portfolio site. I'm currently an IT student learning to build and design useful tech experiences.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20">
+      <div class="bg-white p-8 rounded-2xl shadow-lg max-w-3xl mx-auto text-center">
+        <h3 class="text-3xl font-semibold mb-5 text-indigo-600">About Me</h3>
+        <p class="text-gray-700 text-base leading-relaxed">
+          I'm currently a BS Information Technology student, focused on building a strong foundation in programming, especially in Java. As someone passionate about tech and innovation, I enjoy learning how systems work and how software is built from the ground up. Outside of school, I’m also a gamer — I believe gaming not only helps me relax but also sharpens my problem-solving and critical thinking skills. I'm always excited to grow as a developer and explore where tech can take me.
+        </p>
+      </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="py-20">
+      <div class="text-center max-w-5xl mx-auto">
+        <h3 class="text-3xl font-semibold text-indigo-600 mb-10">Certificates</h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition cursor-pointer">Certificate 1</div>
+          <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition cursor-pointer">Certificate 2</div>
+          <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition cursor-pointer">Certificate 3</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20">
+      <div class="text-center max-w-4xl mx-auto">
+        <h3 class="text-3xl font-semibold text-indigo-600 mb-10">Skills</h3>
+        <div class="flex flex-wrap justify-center gap-5">
+          <span class="bg-indigo-100 text-indigo-800 px-5 py-2 rounded-full font-semibold shadow-sm hover:shadow-md transition cursor-default select-none">Java</span>
+          <span class="bg-indigo-100 text-indigo-800 px-5 py-2 rounded-full font-semibold shadow-sm hover:shadow-md transition cursor-default select-none">HTML &amp; CSS</span>
+          <span class="bg-indigo-100 text-indigo-800 px-5 py-2 rounded-full font-semibold shadow-sm hover:shadow-md transition cursor-default select-none">Tailwind</span>
+          <span class="bg-indigo-100 text-indigo-800 px-5 py-2 rounded-full font-semibold shadow-sm hover:shadow-md transition cursor-default select-none">Canva</span>
+          <span class="bg-indigo-100 text-indigo-800 px-5 py-2 rounded-full font-semibold shadow-sm hover:shadow-md transition cursor-default select-none">Gaming</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20">
+      <div class="bg-white p-8 rounded-2xl shadow-lg max-w-lg mx-auto text-center">
+        <h3 class="text-3xl font-semibold text-indigo-600 mb-6">Contact Me</h3>
+        <form action="https://formspree.io/f/your-form-id" method="POST" class="space-y-5">
+          <input
+            type="text"
+            name="name"
+            placeholder="Name"
+            required
+            class="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-300 transition"
+          />
+          <input
+            type="email"
+            name="_replyto"
+            placeholder="Email"
+            required
+            class="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-300 transition"
+          />
+          <textarea
+            name="message"
+            rows="5"
+            placeholder="Message"
+            required
+            class="w-full px-5 py-3 border border-gray-300 rounded-lg resize-none focus:outline-none focus:ring-2 focus:ring-indigo-300 transition"
+          ></textarea>
+          <button
+            type="submit"
+            class="w-full bg-indigo-600 text-white py-3 rounded-lg font-semibold hover:bg-indigo-700 transition"
+          >git branch -M main
+            Send
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 text-center text-sm text-gray-500 select-none">
+      &copy; 2025 Michael Angelo. All rights reserved.
+    </footer>
+  </main>
+
+</body>
+</html>
